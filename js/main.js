@@ -6,11 +6,11 @@ function calculate(){
    var c =parseInt (document.getElementById('java').value);
    var d =parseInt (document.getElementById('python').value);
    if(a>100 || b>100 || c>100 || d>100 ){
-    alert("Your Marks cannot be more then 100");
+    alert("Your Marks cannot be more then 100 or Enter A valid Number");
    }
    else{
     var obtain= a+b+c+d;
-    document.getElementById('btn-total').innerHTML= obtain;
+    document.getElementById('btn-total').innerHTML= obtain+"/400";
     document.getElementById('r-name').innerHTML= name;
     document.getElementById('r-sname').innerHTML= sname;
     document.getElementById('r-english').innerHTML= a;
@@ -61,7 +61,7 @@ function total(){
     }
     else{
      var obtain= a+b+c+d;
-     document.getElementById('btn-total').innerHTML= obtain;
+     document.getElementById('btn-total').innerHTML= obtain+"/400";
      document.getElementById('r-name').innerHTML= name;
      document.getElementById('r-sname').innerHTML= sname;
      document.getElementById('r-english').innerHTML= a;
