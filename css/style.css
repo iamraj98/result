@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;500;600;700&family=Train+One&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+body{
+    font-family: 'ubuntu';
+    font-size: 18px;
+    background:linear-gradient(rgba(177, 175, 175, 0.9),rgba(187, 184, 184, 0.9)),url('../images/newbg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: rgb(7, 29, 56);
+}
+/* Genral Edit */
+#heading{
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#sub-head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Icon */
+
+#icon{
+    font-size: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(19, 60, 107);
+
+}
+#hh-3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;   
+}
+#main-col{
+    padding: 10px;
+}
+/* Icon End */
+
+
+/* Genral Edit  End*/
+
+
+/* User Input Edit  */
+
+#user{
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color:rgb(7, 29, 56);
+    background-color: rgb(185, 180, 180);
+    padding: 30px;
+    padding-bottom: 0px;
+    font-family: 'Poppins';
+}
+
+#user .names label,
+#user-input  label{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#user-input  label{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#user .names input,
+#user-input input{
+    border: none;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+#user-input input{
+    width: 70%;
+    margin: auto;
+}
+#user .names input:hover,
+#user-input input:hover{
+    box-shadow: inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
+    border-radius: 40px;
+
+}
+#user-input{
+    padding-bottom: 20px;
+}
+
+
+/* Button Section Edit */
+
+#btns{
+    padding-bottom: 30px;
+    
+}
+#percentage{
+    font-size: 15px;
+}
+#btns .btn{
+    width: 100px;
+    background: none;
+    border: none;
+    box-shadow: -10px -10px 15px rgb(255,255,255,0.2),
+    10px 10px 15px rgb(0,0,0,0.1);
+    color:rgb(61, 61, 61);
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: rgb(7, 29, 56);
+    font-weight: 600;
+
+}
+
+#btns button:hover{
+    box-shadow: inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
+    border-radius: 40px;
+}
+
+#result{
+    margin-top: 10px;
+}
+.col-lg-4{
+    padding: 5px;
+}
+
+
+/* Button Section End */
+
+
+
+/* User INPUT edit End */
+
+
+
+/* Result */
+
+#r-result{
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color:rgb(7, 29, 56);
+    background-color: rgb(185, 180, 180);
+    padding: 30px;
+    padding-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+
+#your-info h5{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#your-info span{
+    color: rgb(61, 61, 61);
+    margin-bottom: 40px;
+}
+
+#user-result .col-lg-4 h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    padding-bottom: 0px;
+    
+}
+#user-result .col-lg-4  h4{
+    
+    margin-top: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
+    color: rgb(71, 71, 71);
+    overflow: hidden;
+
+
+}
+
+#your-info{
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* Media  */
+@media(min-width:992px ){
+    #r-result,#user{
+        margin-left: 75px;
+    
+    }
+
+}
+@media(max-width: 576px){
+    /* #total,
+    #grade{
+        margin-left: 30px;
+    } */
+    #result{
+        margin-top: 0px;
+    }
+    #btns button{
+        margin-bottom: 20px;
+    }
+
+    
+}
