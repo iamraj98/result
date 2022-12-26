@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/validation.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+  
+      <section>
+        <div class="container-fluid">
+            <div class="row gy-3 justify-content-evenly">
+                <div class="col-lg-4 col-12"></div>
+                <div class="col-lg-4 col-12" id="main-box">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="header">
+                        <h1>Login</h1>
+                    </div>
+                    <form  id="form">
+                        <div class="main-form">
+                        
+                                <label  class="form-label mb-2">Username</label>
+                                <input type="text" class="form-control " id="username" placeholder="Default email" required>
+                                <div class="err-icons1">
+                                    <i class="fa-solid fa-user-check correct"></i>
+                                <i class="fa-solid fa-triangle-exclamation wrong"></i>
+                                </div>
+                                <small>Error email is invalid</small>
+                            
+                            </div>
+                            <div class="main-form">
+                                <label for="exampleInputPassword1" class="form-label mb-2 mt-3">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Default Password">
+                               <div class="err-icons">
+                                <i class="fa-solid fa-user-check correct"></i>
+                                <i class="fa-solid fa-triangle-exclamation wrong"></i>
+                               </div>
+                                <small>Error password is invalid</small>
+                            </div>
+                        
+                        
+                        <button type="button" class="btn  mt-3 mb-2" id="sub-btn" onclick="validation()" >Submit</button>
+                      </form>
+    
+                </div>
+            </div>
+
+        </div>
+      </section>
+    
+</body>
+</html>
