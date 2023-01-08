@@ -11,7 +11,7 @@ function validation(){
   }
   else if (u_name == 'admin'){
     if(u_password == 'admin@1998'){
-      window.open('/studentresult.html','_self');
+      window.open('./studentresult.html','_self');
     }
     else{
       alert("Password Does not match");
